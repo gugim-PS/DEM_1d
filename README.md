@@ -6,7 +6,7 @@ Solution with python
 
 $$  {F} = {ma}  $$
 
-no considered interaction with wall & particle, friction, rotational motion 
+No considered interaction with wall & particle, friction, rotational motion 
 
 ## Reference
 Cundall, Peter A., and Otto DL Strack. "A discrete numerical model for granular assemblies." geotechnique 29.1 (1979): 47-65.

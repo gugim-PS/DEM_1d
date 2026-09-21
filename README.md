@@ -1,4 +1,4 @@
-#1D Particle Motion by DEM (Discrete Element Method)
+# 1D Particle Motion by DEM (Discrete Element Method)
 
 Solution with Python.
 

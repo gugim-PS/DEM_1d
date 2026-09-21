@@ -4,7 +4,7 @@ Solution with Python.
 
 This example calculates the vertical motion of a single particle under gravity using a simple time-integration scheme.
 
-##Equation of Motion
+## Equation of Motion
 
 Newton's second law:
 
@@ -24,7 +24,7 @@ $$ y_{t+\Delta t}=y_t+v_t\Delta t+\frac{1}{2}a_t(\Delta t)^2 $$
 
 $$ v_{t+\Delta t}=v_t+\frac{1}{2}a_t\Delta t+\frac{1}{2}a_{t+\Delta t}\Delta t $$
 
-Assumptions
+## Assumptions
 
 One particle
 
@@ -40,7 +40,7 @@ No friction
 
 No rotational motion
 
-Python Code
+## Python Code
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -74,7 +74,7 @@ for t in range(timestep):
 print(p_y)   # Location of single particle [m]
 print(time)  # Total simulation time [s]
 
-Variables
+## Variables
 
 p_y : particle position in the y-direction
 
@@ -110,7 +110,7 @@ For this example:
 
 $$ t_{\mathrm{total}}=10\times10^{-3}=0.01\ \mathrm{s} $$
 
-Note
+## Note
 
 The supplied code uses:
 
@@ -124,7 +124,7 @@ p_ay[0] = -grav
 
 or initialized once as -grav, depending on the chosen integration scheme.
 
-Reference
+## Reference
 
 Cundall, Peter A., and Otto D. L. Strack.
 "A discrete numerical model for granular assemblies."
